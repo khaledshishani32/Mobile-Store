@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+table, td{
+
+    text-align: center;
+   
+    
+}
+
+table, th {
+    position: relative;
+    left: 50px;
+    border: 1px solid black;
+    font-family: 'Courgette', cursive;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    font-weight: bold;
+    
+}
+
+#parent{
+   position: relative;
+   left:1000px;
+   bottom: 125px;
+   width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.582);
+    padding: 15px;
+    
+}
+
+
+
+
+#form{
+    position: relative;
+    top: 95px;
+    left: 100px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.418);
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+#name{
+    width: 300px;
+}
+
+#type{
+width: 165px;
+}
+#btn {
+    background-color:rgb(39, 39, 39);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 165px;
+    font-family: 'Courgette', cursive;
+    border-radius: 10px;
+  }
+  
+
+
+main{
+    color: whitesmoke;
+    height: 580px;
+    width: 100%;
+    background-image: url(/img/NX7PC.jpg);
+}
+
+header{
+    height: 60px;
+    width: 100%;
+}
+
+header h1{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
